@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionAdd"/>
+    <addaction name="actionNov_p_ihl_en"/>
+   </widget>
+   <widget class="QMenu" name="menuSpr_vce_hesel">
+    <property name="title">
+     <string>Password manager</string>
+    </property>
+    <addaction name="actionP_idat"/>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuSpr_vce_hesel"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAdd">
+   <property name="text">
+    <string>Add user</string>
+   </property>
+  </action>
+  <action name="actionNov_p_ihl_en">
+   <property name="text">
+    <string>New login</string>
+   </property>
+  </action>
+  <action name="actionP_idat">
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
